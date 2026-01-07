@@ -152,3 +152,48 @@ nav .menu{
     line-height: 30px;
 
 }
+
+#skills{
+    padding-top: 130px;
+    
+}   
+
+#skills .skill-container{
+    width: 71%;
+    max-width: 1140px;
+    margin:0 auto;
+    
+    
+}
+#skills .skill-container .skill-box{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+.skill-box .skill-card{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+    /* border: 1px solid black; */
+    box-shadow: 0 6px 50px 0 #cccccc49;
+    max-width: 243px;
+
+}
+.skill-card img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+.skill-card h3{
+    font-size: 20px;
+    color:#181818;
+    margin-bottom: 20px;
+}
+.skill-card p{
+    /* margin-top: 20px; */
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    /* margin-bottom: 30px; */
+
+}
