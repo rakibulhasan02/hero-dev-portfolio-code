@@ -53,7 +53,9 @@ font-weight: 900;
     margin: 0px auto;
 }
 
-
+.text-center{
+    text-align: center;
+}
 
 
 /* main style */
@@ -235,3 +237,47 @@ nav .menu{
     line-height: 28px;
     color: #757575;
 }
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-container{
+   
+    
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+ .footer-container .social{
+    max-width: 562px;
+}
+.footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container .social p{
+    /* margin-top: 20px; */
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-container .social .icons a{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"],.footer-container form input[type="email"],.footer-container form textarea{
+    width: 461px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    font: size 16px;
+    line-height: 18px;
+    margin-bottom: 24px;
+}
+
